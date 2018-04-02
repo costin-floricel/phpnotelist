@@ -1,0 +1,24 @@
+<!--END CHANGEABLE CONTENT -->
+<?php 
+/*Display the functionality to add and delete notes if
+ -the user is registered and is not the logout.php page
+ -the user just logged in 
+*/
+
+if((is_registered() && (basename($_SERVER['PHP_SELF']) != 'logout.php')) OR (isset($loggedin) && $loggedin)){
+
+  //Create the links to logout,add notes, view notes
+  print '<hr> 
+          <p><a href="add_note.php">Add Note</a></p>
+          <p><a href="view_notes.php">View Notes</a></p> 
+          <p><a href="logout.php">Logout</a></p>';
+}
+ 
+?>
+
+</div>
+   <footer>
+		<p>Copyright &copy; 2018 - Costin Floricel</p>
+   </>
+  </body>
+</html>
