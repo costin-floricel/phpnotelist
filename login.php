@@ -49,6 +49,7 @@
 						</form>		
 	</div>';
   }
+  //Include the footer
   include('templates/footer.html');
 
 
