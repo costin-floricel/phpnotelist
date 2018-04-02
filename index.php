@@ -40,9 +40,9 @@
     print '
     <div class="container">
 		
-		<h2>Login or register</h2>
+		<h2>Login in Order to Add Your Notes</h2>
 		<div class="row ">
-						<form action="login.php" method= "post" class="form">
+						<form action="index.php" method= "post" class="form">
 							<input type="email" name="email" placeholder="username or email address"/>
 							<input type="password" name="password" placeholder="password"/>
 							<button>login</button>

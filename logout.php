@@ -13,6 +13,10 @@
 
   //Print the confirmation that You are Logout
   echo '<p>You are now logged out</p>';
+  echo '<p>You can login back by using this link<a href="index.php">LogIn</a></p>';
+
+
+
 
    //Include the footer
    include('templates/footer.html');
