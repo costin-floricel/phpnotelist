@@ -32,7 +32,7 @@
             <p>' .$row['note'];
 
             print  '</p><br><input type="hidden" name="id" value= "' . $_GET['id'] . '"> 
-            <p><input type="submit" name="submit" value="Delete Note"></p>
+            <p><input type="submit" name="submit" id="btn-addnote" value="Delete Note"></p>
           
           </form>';
 

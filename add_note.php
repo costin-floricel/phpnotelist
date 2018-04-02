@@ -44,7 +44,7 @@
     <p><label for="note">Note</label></p>
     <p><textarea name="note" cols="30" rows="10"></textarea></p></p>
 
-    <p><input type="submit" name="submit" value="Add Note"></p>
+    <p><input type="submit" id="btn-addnote" name="submit" value="Add Note"></p>
     </form>
    
 <?php 
